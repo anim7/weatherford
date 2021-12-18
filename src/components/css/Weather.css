@@ -1,0 +1,38 @@
+.heading {
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1rem auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.weather-container {
+  margin: 0rem auto;
+  width: 75%;
+  display: flex;
+  background-color: white;
+  border: 0.1rem solid black;
+}
+
+.mainInfo {
+  margin: 0rem;
+}
+
+.mainInfo h3,
+.mainInfo h4 {
+  margin: 0rem;
+}
+
+.temp {
+  display: flex;
+}
+
+.temp img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.temp h3 {
+  font-size: 3rem;
+  align-self: center;
+}
